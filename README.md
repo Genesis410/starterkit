@@ -17,7 +17,6 @@ A comprehensive SaaS starter kit built with Next.js 15, Supabase, Stripe, and mo
 
 - User authentication with email/password and OAuth (Google, GitHub, etc.)
 - Subscription management with Stripe
-- Database integration with Drizzle ORM
 - File uploads with Supabase Storage
 - Responsive UI with shadcn/ui components
 - Middleware for protected routes
@@ -86,12 +85,6 @@ A comprehensive SaaS starter kit built with Next.js 15, Supabase, Stripe, and mo
 4. Listen for subscription events: `customer.subscription.created`, `customer.subscription.updated`, `customer.subscription.deleted`
 5. Get the webhook signing secret and add it to your environment variables
 
-### Cloudflare Workers Setup (Optional)
-
-1. Install Wrangler: `npm install -g wrangler`
-2. Run `wrangler login` to authenticate with Cloudflare
-3. Update `wrangler.toml` with your account details
-4. Deploy with `wrangler deploy`
 
 ## Environment Variables
 
@@ -156,8 +149,6 @@ When deploying to Vercel, make sure to set all the required environment variable
 - `npm run dev` - Start the development server
 - `npm run build` - Build the application for production
 - `npm run start` - Start the production server
-- `npx drizzle-kit generate` - Generate database migrations
-- `npx drizzle-kit migrate` - Run database migrations
 
 ## Troubleshooting
 
