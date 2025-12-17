@@ -36,7 +36,7 @@ A comprehensive SaaS starter kit built with Next.js 15, Supabase, Stripe, and mo
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Genesis410/starterkit.git
    cd saas-starter
    ```
 
