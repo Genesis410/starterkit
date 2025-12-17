@@ -8,11 +8,9 @@ A comprehensive SaaS starter kit built with Next.js 15, Supabase, Stripe, and mo
 - **Styling**: Tailwind CSS, shadcn/ui
 - **Backend**: Next.js API Routes
 - **Database**: Supabase (PostgreSQL)
-- **ORM**: Drizzle ORM
 - **Authentication**: Supabase Auth
 - **Storage**: Supabase Storage
 - **Payments**: Stripe
-- **Edge Functions**: Cloudflare Workers
 - **Deployment**: Vercel
 
 ## Features
